@@ -1,3 +1,10 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-left: 150px;
+}
 .imgtree {
     width: 100%;
     min-height: 80vh;
@@ -24,4 +31,51 @@
 .layer.l2 {
     z-index: 2;
     background: #5E239D;
+}
+.layer.l3 {
+    z-index: 3;
+}
+h1{
+    color:white; 
+}
+p{
+    color:white; 
+}
+b{
+    color:white; 
+}
+a{
+    color:white; 
+}
+nav {
+    position: relative;
+    z-index: 5;
+}
+.header{
+    margin-top: 100px;
+    position: relative;
+    z-index: 5;
+}
+.log{
+    font-size: 30px;
+}
+.firsta1header{
+    font-size: 25px;
+    margin-left: 300px;
+}
+.a1header{
+    font-size: 25px;
+    margin-left: 100px;
+}
+.telefonicon{
+    margin-left: 200px;
+}
+.bigtext{
+    font-size: 80px;
+}
+.bigtextb2{
+    color: mediumvioletred; 
+}
+.scroll{
+    transform: rotate(90deg);
 }
