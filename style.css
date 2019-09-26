@@ -72,10 +72,12 @@ nav {
 }
 .bigtext{
     font-size: 80px;
+    width: 80%;
 }
 .bigtextb2{
     color: mediumvioletred; 
 }
 .scroll{
+    display: inline-block;
     transform: rotate(90deg);
 }
